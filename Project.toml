@@ -1,0 +1,18 @@
+name = "SystemicRiskAnalysis"
+uuid = "12345678-1234-1234-1234-123456789abc"
+authors = ["User <user@example.com>"]
+version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+ThreadsX = "ac1d9e8a-700a-412c-b207-f0111f4b6c0d"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+
+[compat]
+julia = "1.6"
+ThreadsX = "0.1"
+DataFrames = "1.3"
